@@ -1,0 +1,123 @@
+.container {
+    font-family: "Quicksand", sans-serif;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-shadow: 1px 1px rgb(0 0 0 / 0.5);
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    object-fit: contain;
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(239, 246, 249) 0%,
+        rgb(206, 239, 253) 90%
+    );
+}
+#searchCollection {
+    display: block;
+    text-align: center;
+}
+#cityCollection {
+    text-align: center;
+}
+.citySearch,
+.searchButton {
+    display: inline;
+    color: #42a5f5;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: auto;
+}
+
+.grid-item {
+    padding: auto;
+    font-size: 30px;
+    text-align: center;
+}
+#currentTemp {
+    font-size: 75px;
+    padding: auto;
+    border: 1px solid black;
+    height: 120px;
+    color: #42a5f5;
+    display: inline;
+    border-radius: 40%;
+    box-shadow: 3px 3px rgb(0 0 0 / 0.2);
+    background-color: white;
+}
+
+.weatherEmojis {
+    font-size: 100px;
+}
+.weekTemp {
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 3px 3px rgb(0 0 0 / 0.2);
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    margin-left: 20%;
+    background-color: white;
+}
+.units {
+    font-size: 50px;
+    color: #42a5f5;
+}
+
+body {
+    background: linear-gradient(
+        178deg,
+        rgba(201, 234, 252, 0.51) 14.9%,
+        rgba(139, 192, 216, 0.73) 80%
+    );
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #42a5f5;
+    padding: auto;
+}
+h2 {
+    font-size: 30px;
+    color: #2676b7;
+    text-align: center;
+}
+h3,
+.city {
+    font-size: 100px;
+    color: #42a5f5;
+    margin-left: 5%;
+}
+
+input {
+    box-shadow: 3px 2px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+input[type="text"] {
+    margin-left: 60px;
+    width: 50%;
+}
+
+input[type="submit"] {
+    width: 15%;
+}
+p {
+    font-family: monospace;
+    text-align: center;
+    color: black;
+    opacity: 0.4;
+    padding-top: 100;
+}
