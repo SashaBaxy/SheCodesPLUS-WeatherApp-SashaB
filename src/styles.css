@@ -72,6 +72,11 @@
     font-size: 50px;
     color: #42a5f5;
 }
+.openSourceCode {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 
 body {
     background: linear-gradient(
